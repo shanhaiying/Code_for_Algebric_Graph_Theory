@@ -82,3 +82,4 @@ def plot_graph_with_labels(G, eigenvector=('L', 0), **kwargs):
 
     plt.title(f"{title} (Spectral Radius: {spectral_radius:.2f})")
     plt.show()
+    nx.Graph.eigenpair = eigenpair_for_graph
